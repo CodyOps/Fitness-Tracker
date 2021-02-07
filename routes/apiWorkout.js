@@ -6,12 +6,12 @@ module.exports = function (app) {
   app.get("/api/workouts", (req, res) => {
     db.Workout.find({})
       .then((dbWorkout) => {
-        dbWorkout.forEach((session) => {
+        dbWorkout.forEach((workout) => {
           var total = 0;
-          session.exercises.forEach((event) => {
+          workout.exercises.forEach((event) => {
             total += event.duration;
           });
-          session.totalDuration = total;
+          workout.totalDuration = total;
         });
 
         res.json(dbWorkout);
