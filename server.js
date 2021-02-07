@@ -1,12 +1,15 @@
+//require in express, mongoose, morgan, and path
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 const path = require("path");
 
+//port 3000 or Heroku port
 const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+//middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
