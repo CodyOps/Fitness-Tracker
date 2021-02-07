@@ -1,18 +1,13 @@
 # Fitness-Tracker
 
-## Project Name: The Purr-fect Match App
-
 ## Table of Contents
 
 - [Title](#title)
 - [Description](#description)
 - [User Story](#story)
-- [APIs](#apiused)
 - [Images](#photos)
-- [New Technologies Used](#technologies)
+- [Technologies Used](#technologies)
 - [Installation](#installation)
-- [Technologies](#technology)
-- [Contribution](#contribution)
 - [License](#license)
 
 ## Description:
